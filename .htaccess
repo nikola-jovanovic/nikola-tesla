@@ -1,0 +1,30 @@
+RewriteEngine On
+options +FollowSymLinks
+
+RewriteRule ^([a-zA-Z_]+)$ index.php?$1 [L]
+RewriteRule ^([a-zA-Z]+)/([a-zA-Z\-]+)$ index.php?$1&tip=$2 [L]
+RewriteRule ^([a-zA-Z]+)/([0-9]+)/(.*)/1$ index.php?$1&id=$2&naslov=$3&kom=1 [L]
+RewriteRule ^([a-zA-Z]+)/([0-9]+)/(.*)$ index.php?$1&id=$2&naslov=$3 [L]
+RewriteRule ^([a-zA-Z]+)/([a-zA-Z]+)/([0-9]+)$ index.php?$1&$2=$3 [L]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

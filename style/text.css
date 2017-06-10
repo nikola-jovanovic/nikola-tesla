@@ -1,0 +1,313 @@
+h1{
+	padding-bottom:20px;
+padding-top:5px;
+}
+input[type="button"]{
+	cursor:pointer;
+}
+.slike{	
+	text-align:center;
+	max-width:75%;
+	min-height:100px;
+	max-height:330px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 4px;
+}
+a.lista:link, a.lista:visited{
+	font-size:14px;
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	
+}
+a.lista:hover, a.lista:active{
+	text-decoration:underline;
+	color:black;
+}
+
+ul.lista li{
+	list-style-type:circle;
+	font-size:14px;
+	}
+
+
+
+
+table.tabela{
+	font-size:13px;
+	table-layout:auto;
+	text-align:left;
+	width: 100%;
+	
+	border-collapse: collapse;
+	border:1px double #64798D;
+	vertical-align:center;
+	
+}
+td.tabela{
+	border-top:1px double #64798D;
+	padding:5px;
+	
+}
+th.tabela{
+	background-color:#64798D;
+	border-top:1px double #64798D;
+	vertical-align:center;
+	padding:5px;
+	
+}
+
+a.don:link, a.don:visited{
+	background-color:black;
+	color:#d2c4a7;
+	font-weight:bold;	
+	text-decoration:none;	
+	
+	padding:3px 10px 3px 10px;
+	font-size:14px;
+	}
+a.don:hover, a.don:active{
+	
+	text-decoration:underline;
+}
+
+
+
+.upozorenje{
+	font-size:13px;
+	font-weight:bold;
+	font-style:italic;
+	text-align:left;
+}
+
+table.formular{
+	width:100%;
+	table-layout:auto;
+	border-collapse: collapse;
+	font-weight:bold;
+	text-align:left;
+}
+th,td.formular{
+	vertical-align:top;
+	border-style:none;
+	margin:5px;
+	padding:15px;
+	text-align:left;
+	border-bottom:solid;
+	border-width:1px;
+	border-color:black;
+}
+tr.formular{
+	margin:5px;
+	padding:15px;
+	text-align:left;
+	border-bottom:solid;
+	border-width:1px;
+	border-color:black;
+}
+
+
+#thermometar {
+	float:right;
+	height:250px; 
+	width:50px; 
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border-color:black;
+	border-style:solid;
+    border-width:2px;
+	background-color:#CC240C; 
+	
+	}
+#iznos {
+	
+	padding: 0;
+    margin: 0 ;
+	background-color:#C9B17E; 
+	vertical-align:bottom;
+	width:100%;
+	-moz-border-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	max-height:240px;
+	overflow:hidden;
+}
+.levo {
+	height:300px;
+	float:left;
+	text-align:left;
+
+	width:46%;
+}
+.desno {
+	height:350px;
+	vertical-align:center;
+	float:right;
+	width:49%;
+	border-left:2px solid #3d5770;
+	padding-left: 5px;
+}
+.pozicija{
+	color:#3d5770; 
+	padding: 0px;
+	font-size:12px;
+	text-align:left;
+	margin-left:0px;
+}
+.term{
+	
+	text-align:left;
+	float:left;
+	width:55%;
+}
+.term1{
+	text-align:left;
+	float:right;
+	width:45%;
+}
+.obavestenje{
+	font-weight:normal;
+	text-align:left;
+	font-size:10px;
+	
+}
+.thanks{
+	font-size:18px;
+	font-weight:bold;
+	
+	}
+
+.dugme{
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+	background-color:#362511;
+	color:#d2c4a7;
+	font-weight:bold;
+	font-size:14px;
+	padding:5px 10px;
+	margin-top:5px;
+	
+	
+}
+.dugme:hover{
+	background-color:#181108;
+}
+
+.dugmeTab{
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+	background-color:#362511;
+	color:#d2c4a7;
+	font-size:14px;
+	padding:4px 8px;
+	margin-top:5px;	
+}
+.dugmeTab:hover{
+	background-color:#181108;
+}
+.dugme_invert{
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+	background-color:#d2c4a7;
+	color:#362511;
+	font-weight:bold;
+	font-size:14px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:5px;
+	cursor:pointer;	
+}
+.dugme_invert:hover{
+	background-color:#DACFB8;
+	-webkit-box-shadow:0px 0px 1px 1px #C4BAA6;
+	-moz-box-shadow:0px 0px 1px 1px #C4BAA6;
+	box-shadow:0px 0px 1px 1px #C4BAA6;
+}
+
+a.dugme:hover, a.dugme:link, a.dugme:visited, a.dugme:active{
+	color:#d2c4a7;
+}
+
+.hvala{
+	width:30%;
+	
+		
+}
+.visa{
+	 width:130px;
+	 height: 40px;
+}
+#news_project{	
+	height:300px;
+	color:black;
+	font:normal 12px Arial;
+}
+.datum_vesti{
+  font-size:11px;
+}
+
+
+
+#doniraj{
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+	background-color:#64798D;
+	color:#d2c4a7;
+	font-weight:bold;
+	font-size:18px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	text-decoration:none;
+}
+.image1{
+	width:80%;
+max-width:100px;
+	margin-top:40px;
+	margin-bottom:10px;
+	border:none;
+}
+a.logoi:link, a.logoi:visited{
+font-size:13px;
+font-weight:bold;
+overflow: hidden;
+color:black;
+text-decoration:none;
+}
+a.logoi:hover, a.logoi:active{
+	text-decoration:none;
+	color:black;
+}
+
+.placanje_ime{
+	display:inline-block;
+	font-weight:normal;
+	
+}
