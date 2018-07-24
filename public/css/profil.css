@@ -1,0 +1,14 @@
+input{min-width:20px;}
+table.profil-tabela{		border-style:none;	margin:0;	font-size:13px;	text-align:left;	table-layout:auto;	display:block; max-width:400px}
+th,td.profil-tabela{	border-style:none;	text-align:left;	margin:0;	padding:0;	padding-left:10px;	}
+.clanarina:link, .clanarina:visited{	font-weight:bold;	text-decoration:none;	color::#FF4719;	padding:10px;	font-size:14px;}
+.clanarina:hover, .clanarina:active{	color:#3d5770;	text-decoration:none;}
+.hed{		margin-left:0px;	text-align:left;	margin-bottom:0px;}
+table.projekti{	border-style:none;		table-layout:auto;	width:100%; margin:0px; }
+tr.projekti{	vertical-align:center; padding:5px 0px 5px 0px;	}
+th.projekti{		vertical-align:center; width:30%;	border-style:none;	text-align:left; padding:5px 0px 5px 0px;}
+td.projekti{		vertical-align:center; width:70%;	border-style:none;	text-align:left; padding:5px 0px 5px 0px; }
+
+.broj_strane{		font-size:13px;	font-weight:normal;}
+.broj_strane_trenutna{		font-size:13px;	font-weight:bold;}
+.strelica{		height:13px;	width:17px;	margin-top:5px;}

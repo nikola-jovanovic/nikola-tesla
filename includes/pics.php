@@ -8,4 +8,3 @@
 	<img src="images/img/slika7.jpg"/>
 	<img src="images/img/slika8.jpg"/>
 </div>
-

@@ -1,0 +1,106 @@
+.left{
+	float:left;
+	width:18%;
+	margin:0 0 1em 2%;
+	padding:0;	
+	height:auto;
+	min-height:300px;
+	
+}
+.active {
+	text-indent: 10px;
+	text-shadow:-3px -3px 4px #fff !important;
+	background: url(../img/dugme_nav_hov.jpg) repeat-x !important;
+	margin-left: 4% !important;
+	background-size: 100% 100% !important;
+	border-radius: 1px 8px 1px 8px;
+}
+#navigacija{
+	margin:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+#navigacija>li a:link, #navigacija>li a:visited{
+	width:100%;
+	text-decoration:none;
+	display:block;
+	padding:5px 5px 5px 5px;
+	margin:0px 0px 1px 0;
+	background: url(../img/dugme_nav.jpg);
+	background-repeat:repeat-x ;
+	background-size: 100% 100%;
+	height: auto;
+	color:#ffffff;
+	overflow:hidden;	
+}
+
+#navigacija>li a:hover, #navigacija>li a:active{
+	text-decoration:none;
+	background: url(../img/dugme_nav_hov.jpg);
+	background-size: 100% 100%;
+	background-repeat:repeat-x;
+	}
+
+#navigacija ul{
+	list-style:none;
+	margin:-3px 0px -3px 14px;
+	padding:5px;
+}
+
+#navigacija>li ul li a:link, #navigacija>li ul li a:visited{
+	text-decoration:none;
+	background: url(../img/dugme_nav.jpg) repeat-x;
+	background-size: 100% 100%;
+	margin:1px 0 1px 0;
+	display:block;
+	padding:4px;
+	min-height:20px;
+	height:auto;
+	width:90%;
+	color:#ffffff;
+	overflow:hidden;
+}
+
+#navigacija>li ul li a:hover, #navigacija>li ul li a:active{
+	text-decoration:none;
+	background: url(../img/dugme_nav_hov.jpg) repeat-x;
+	background-size: 100% 100%;
+}
+
+#navigacija>li>ul{
+	list-style-type:none;
+	margin:-3px 0px -3px 14px;
+	padding:5px;
+	display:none;
+}
+.okvir_partneri{
+overflow: hidden;
+	margin:20px 0px;
+	width:96%;
+	padding: 5px 5px 50px 5px;
+	text-align:center;
+	border: 3px solid #3D5770;
+	height:auto;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition:all 0.3s ease-in-out 0s; /* Safari and Chrome */
+	-o-transition:all 0.3s ease-in-out 0s;
+	background-color: #EFE7D7;
+}
+.okvir_partneri:hover{
+	-webkit-box-shadow:0px 0px 10px 5px #31220F;
+	-moz-box-shadow:0px 0px 10px 5px #31220F;
+	box-shadow:0px 0px 10px 5px #31220F;
+
+}
+
+.bolt{
+	width:103%;
+	height:30px;
+	margin:5px 0px;
+}
+
+.bolt img{
+	width:100%;
+	height:100%;
+}

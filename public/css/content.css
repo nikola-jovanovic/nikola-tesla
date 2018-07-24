@@ -1,0 +1,538 @@
+.sadrzaj{
+	width:100%;
+}
+
+.middle{
+	float:right;
+	width:73%;
+	margin:0 2% 0 1%;
+	padding:0;
+	height:auto;
+	min-height:600px;
+}
+
+.content{
+font-size:14px;
+	border:3px solid #3d5770;
+	min-height: 970px;
+	height:auto;
+	/*min-height:500px;*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	padding:20px 20px 100px 20px;
+}
+
+fieldset{
+	border-color: #362511;
+	border-radius:10px 50px;
+	padding: 30px 20px 40px 20px;
+	margin-top:20px;
+}
+/*.content table {
+	border-layout:auto;
+	font-size:13px;
+	text-align:left;
+}*/
+
+/*tr.abstrakt, tr.text, tr.o_autoru, tr.o_autoru_knj, tr.o_autoru_pr{
+	vertical-align:top;
+}*/
+
+.content a:link, .content a:visited{
+	text-decoration:none;
+	color:#000099;
+}
+
+.content a:hover, .content a:active{
+	color:#0000ff;
+}
+
+.content input{
+	//width:100%;
+}
+ 
+.datum1{
+	font-size:11px;
+}
+
+.naslov{
+font-size:18px;
+margin:20px 0 20px 0;
+font-weight:bold;
+display:block;
+}
+a.naslov:link, a.naslov:visited,a.naslov:hover, a.naslov:active{
+	color:black;
+	text-decoration:none;
+	text-align:left;
+	display:block;	
+}
+
+
+
+.autor{
+	
+	font-size:12px;
+}
+
+.okvirGL{
+	border:2px solid #537F8C;
+	width:40%;
+	height:35%;
+	//float:left;
+	margin-left:auto;
+	margin-right:auto;
+	//margin:0px 5px 5px 0px;
+}
+
+.okvir_slike{
+	text-align:center;
+	margin: 25px 0px 0px 0px;
+}
+.okvir{
+	border:2px solid #537F8C;
+	width:40%;
+	height:35%;
+	margin-left:auto;
+	margin-right:auto;
+	//margin:5px 0px 5px 5px;
+}
+
+//.okvir:nth-child(odd){
+	border:2px solid #537F8C;
+	width:40%;
+	height:35%;
+	float:right;
+	margin:5px 0px 5px 5px;
+}
+
+//.okvir:nth-child(even){
+	border:2px solid #537F8C;
+	width:40%;
+	height:35%;
+	float:left;
+	margin:5px 0px 5px 5px;
+}
+
+.gl_slika1{
+	width:95%;
+	max-width:600px;
+	height:85%;
+	margin:5px;
+}
+
+.naslovSlike{
+	text-align:center;
+	font-style:italic;
+	font-size:12px;
+	margin-bottom:25px;
+}
+
+.gl_slikaMenu{
+	width:20%;	
+	margin:0px 20px 5px 0px;
+	border-radius: 2px;
+}
+.izlistano{
+margin:10px 0 20px 0px;
+}
+
+.absMenu{
+	font-size:14px;
+	font-style:italic;
+	margin-top:0px;
+margin-bottom:20px;
+}
+
+.abs{
+	font-size:14px;
+	font-style:italic;
+	margin-bottom:10px;
+}
+
+.text1{
+	font-size:14px;
+	margin:0px 0px 0px 0px;
+	text-align:left;
+}
+
+.slike1{
+	width:95%;
+	max-width:600px;
+	height:85%;
+	margin:5px 5px 5px 7px;
+}
+
+.clear{
+	clear:both;
+}
+
+.reg{
+	font-size:13px;
+}
+
+.odobri:link, .odobri:visited{
+	font-size:15px;
+	font-style:italic;
+	color:black;
+}
+.registracija input[type=text], .registracija input[type=password]{
+	width:30%;
+}
+.odobri:hover, .odobri:active{
+	color:#30210e;
+}
+
+.inf{
+	font-style:italic;
+	font-size:14px;
+}
+
+/*.korisnici{
+	width:100%;
+	border-collapse:collapse;
+}
+
+.koricnici th, .korisnici td {
+	font-size:11px;
+	text-align:left;
+	font-size:1em;
+	border:1px solid #2c1d0a;
+	padding:3px 7px 2px 7px;
+}
+
+.korisnici th {
+	font-size:13px;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#2c1d0a;
+	color:#d2c4a7;
+}
+*/
+.broj_strane{
+	padding:0px 5px;
+	border: 1px solid #31220f;
+	margin: 0px 1px 0px;
+	border-radius: 3px;
+}
+
+.broj_strane_trenutna{
+	padding:0px 5px;
+	border: 1px solid #31220f;
+	background: #E6EAE9;
+	margin: 0px 1px 0px;
+	background-color: #362511;
+	border-radius: 20px;
+}
+.broj_strane_trenutna a:link, .broj_strane_trenutna a:visited{
+	color: #D2C4A7;
+}
+.broj_strane a:link, .broj_strane a:visited{
+	color: black;
+}
+.info{
+	border: 1px solid #3d5770;
+}
+
+.tooltip{
+	margin-left:20px;
+	border: 1px solid #2c1d0a;
+	box-shadow: 0px 0px 2px 2px #2c1d0a;
+	border-radius: 5px;
+	padding:3px;
+}
+.azuriraj{
+	width:100%;
+	font-size: 13px;
+	border-collapse: collapse;
+}
+.azuriraj th{
+	text-align: left;
+	background-color: #362511;
+	color:#D2C4A7;
+	padding: 5px;
+	font-size: 14px;
+	border: 2px solid #362511;
+}
+
+.azuriraj td:not(:first-child){
+	text-align: left;
+	padding: 5px;
+}
+.azuriraj td{
+	padding: 5px;
+}
+.par td{
+	border-top: 2px solid #4C3311;
+	border-bottom: 2px solid #4C3311;
+}
+.par td:first-child{
+	border-left: 2px solid #4C3311;
+}
+.par td:last-child {
+	border-right: 2px solid #4C3311;
+}
+a.link:link, a.link:visited { 
+	color: black;
+	font-size: 10pt;
+	font-weight: 700;
+	overflow: hidden;
+	text-decoration: none;
+}
+a.link:hover, a.link:active { 
+	text-decoration: underline;
+}
+a.profil_link:link, a.profil_link:visited { 
+	color: black;
+	overflow: hidden;
+	text-decoration: none;
+}
+a.profil_link:hover, a.profil_link:active { 
+	font-style: italic;
+	text-decoration: underline;
+}
+.profil_slika{
+	width:30%;
+	margin: 0px 20px 15px 0px;
+	float:left;
+	border-radius: 5px;
+	box-shadow: 0px 5px 8px 1px #494949;
+}
+.profil_slika img{
+	width:100%;
+	height:100%;
+	border-radius: 5px;
+}
+.komentar{
+	display:block;
+	border-top: 2px groove #EBE4D7;
+	//border-bottom: 2px groove #EBE4D7;
+	margin-top:5px;
+	width:100%;
+	height:auto;
+
+}
+
+.kom{
+	display:block;
+	margin:5px;
+}
+
+.komentar1{
+	display:block;
+	border-top: 1px groove #EBE4D7;
+	//border-bottom: 1px groove #EBE4D7;
+	margin-top:5px;
+	margin-left:30px;
+	margin-right:0;
+	height:auto;
+
+}
+.kom1{
+	display:block;
+	margin:5px;
+}
+.komentar_text{
+	margin:10px 0 10px 0;
+}
+.komentar_ime{
+	float:left;
+	width:40%;
+	font-size: 15px;	
+	font-weight: bold;
+	margin:5px 0 5px 0;
+}
+.komentar_ocena{
+	white-space: nowrap;
+	font-size: 15px;	
+	font-weight: normal;
+	float:right;
+	width:40%;
+	text-align:right;
+	margin:5px 0 5px 0;
+}
+
+.plus{
+	background:url('../images/like.png') no-repeat;
+	background-size: 100% 100%;
+	border:none;
+	width:15px;
+	height:15px;
+	
+	margin-left:2px;
+	margin-right:5px;
+	cursor:pointer;
+}
+.minus{
+	background:url('../images/unlike.png') no-repeat;
+	background-size: 100% 100%;
+	border:none;
+	width:15px;
+	height:15px;
+	
+	margin-left:2px;
+	margin-right:5px;
+	cursor:pointer;
+}
+
+.delete{
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border:outset;
+	background-color:#d2c4a7;
+	color:#362511;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:10px;
+	margin-bottom:5px;
+	font-weight: normal;
+} 
+.delete:hover{
+	cursor:pointer;
+}
+
+a.kom_naslov:link, a.kom_naslov:visited{
+	color:black;
+}
+a.kom_naslov:hover, a.kom_naslov:active{
+	color:black;
+	text-decoration:underline;
+}
+
+a.trazi:link, a.trazi:visited{
+	text-decoration:none;
+	font:normal 12px Arial;
+	color:#d2c4a7;
+	margin-left:10px;
+}
+a.trazi:hover, a.trazi:active{
+	color:#fff8ea;
+}
+.datum_vesti{
+  font-size:11px;
+}
+.datautor{
+	float:left;
+	width:50%;
+}
+.like_ulnike{
+	
+	font-size: 13px;	
+	font-weight: normal;
+	float:right;
+	width:40%;
+	text-align:right;
+	margin-right:2px;
+	padding:0px;
+}
+
+.like{
+	background:url('../images/like.png') no-repeat;
+	background-size: 100% 100%;
+	border:none;
+	width:20px;
+	height:20px;
+	padding:0px;
+	margin-left:0px;
+	margin-right:5px;
+	cursor:pointer;
+}
+.unlike{
+	background:url('../images/unlike.png') no-repeat;
+	background-size: 100% 100%;
+	border:none;
+	width:20px;
+	height:20px;
+	padding:0px;
+	margin-left:0px;
+	margin-right:5px;
+	cursor:pointer;
+}
+
+.oblacic{
+	background:url('../images/komentari.png') no-repeat;
+	background-size: 100% 100%;
+	border:none;
+	width:25px;
+	height:20px;
+	padding:0px;
+	margin-left:2px;
+	margin-right:3px;
+	cursor:pointer;
+}
+
+.close_kom{
+	background:url('../images/close.png') no-repeat;
+	background-size: 100% 100%;
+	border:none;
+	width:20px;
+	height:20px;
+	padding:0px;
+	margin-left:0px;
+	margin-right:5px;
+	cursor:pointer;
+}
+
+.odgovori{
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border:outset;
+	background-color:#d2c4a7;
+	color:#362511;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:1px;
+	padding-bottom:1px;
+	font-weight: normal;
+	cursor:pointer;
+
+}
+
+.box_pretraga{
+	margin:10px 0 10px 20px;
+}
+
+.napomena{
+	display:block;
+	margin-bottom:20px;
+	border-radius:2px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	
+	border:3px solid #3d5770;
+	background-color:#C5D8E8;
+	padding:10px;
+}
+
+.platina{
+	width:100%;
+	height:5px;
+	background:url('../images/platina.jpg') ;
+	margin-bottom:10px;
+}
+
+.zlato{
+	width:100%;
+	height:5px;
+	background:url('../images/zlato.jpg') ;
+	margin-bottom:10px;
+}
+
+.obicno{
+	width:100%;
+	height:5px;
+	background-color:black; 
+	margin-bottom:10px;
+}
+.naslov_donatori{
+	font-size:18px;
+	margin:20px 0 2px 0;
+	font-weight:bold;
+	display:block;
+
+}
